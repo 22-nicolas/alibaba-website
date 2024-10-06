@@ -1,0 +1,77 @@
+.background {
+    filter: blur(5px);
+}
+
+.background-div{
+    position: relative;
+    overflow: hidden;
+}
+
+.alt-logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+}
+
+.essen-vorschau {
+    color: white;
+}
+
+.essen-vorschau h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    line-height: 0rem;
+    margin-top: 3rem;
+}
+
+.essen-vorschau p {
+    max-width: 45ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.essen-vorschau img {
+    width: 50%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 10px black;
+    display: block;
+}
+
+
+.quote{
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* xl */
+@media (min-width: 1024px) {
+    .background{
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+    
+    .background-div{
+        height: 850px;
+    }
+
+    .alt-logo{
+        width: 20%;
+    }
+
+    .essen-vorschau img{
+        width: 20%;
+    }
+}
+ 
